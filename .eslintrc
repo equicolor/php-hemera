@@ -1,0 +1,22 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        },
+        "sourceType": "module"
+    },
+    "rules": {
+        "max-len": [1, 100, 2, {"ignoreComments": true}],
+        "semi": ["error", "always"]
+    },
+    "globals": {
+      "vex": true
+    }
+}

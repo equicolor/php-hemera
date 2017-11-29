@@ -1,0 +1,12 @@
+{
+    "name": "equicolor/php-hemera",
+    "authors": [
+        {
+            "name": "equicolor",
+            "email": "eqcolor@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzle/guzzle": "^3.9"
+    }
+}

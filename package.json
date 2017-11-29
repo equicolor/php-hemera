@@ -1,0 +1,23 @@
+{
+  "name": "yii2-hemera",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "server.js"
+  },
+  "keywords": [
+    "yii2",
+    "hemera"
+  ],
+  "author": "equicolor",
+  "license": "MIT",
+  "dependencies": {
+    "hemera-joi": "^2.0.1",
+    "hemera-nats-streaming": "^1.0.1",
+    "hemera-web": "^1.0.1",
+    "nats": "^0.7.24",
+    "nats-hemera": "^2.4.3",
+    "node-nats-streaming": "0.0.26"
+  }
+}
